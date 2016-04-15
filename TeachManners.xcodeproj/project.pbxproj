@@ -12,6 +12,18 @@
 		CECA16E91CBD80ED009A9D22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECA16E71CBD80ED009A9D22 /* Main.storyboard */; };
 		CECA16EB1CBD80ED009A9D22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECA16EA1CBD80ED009A9D22 /* Assets.xcassets */; };
 		CECA16EE1CBD80ED009A9D22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECA16EC1CBD80ED009A9D22 /* LaunchScreen.storyboard */; };
+		CECA16F81CBD8615009A9D22 /* Mannerism.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA16F71CBD8615009A9D22 /* Mannerism.swift */; };
+		CECA16FA1CBD8F82009A9D22 /* Talking.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA16F91CBD8F82009A9D22 /* Talking.swift */; };
+		CECA16FC1CBD8FD5009A9D22 /* TableManners.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA16FB1CBD8FD5009A9D22 /* TableManners.swift */; };
+		CECA16FE1CBD900D009A9D22 /* Phone.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA16FD1CBD900D009A9D22 /* Phone.swift */; };
+		CECA17001CBD903D009A9D22 /* Restroom.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA16FF1CBD903D009A9D22 /* Restroom.swift */; };
+		CECA17021CBD90B4009A9D22 /* AskingNicely.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA17011CBD90B4009A9D22 /* AskingNicely.swift */; };
+		CECA17041CBD90E0009A9D22 /* GoldenRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA17031CBD90E0009A9D22 /* GoldenRule.swift */; };
+		CECA17061CBD9153009A9D22 /* VisitingHouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA17051CBD9153009A9D22 /* VisitingHouse.swift */; };
+		CECA17081CBD9185009A9D22 /* RespectForOthers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA17071CBD9185009A9D22 /* RespectForOthers.swift */; };
+		CECA170A1CBDD6ED009A9D22 /* MannerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA17091CBDD6ED009A9D22 /* MannerDetailViewController.swift */; };
+		CECA172F1CC02775009A9D22 /* MannerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA172D1CC02775009A9D22 /* MannerTableViewCell.swift */; };
+		CECA17301CC02775009A9D22 /* MannerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CECA172E1CC02775009A9D22 /* MannerTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +34,18 @@
 		CECA16EA1CBD80ED009A9D22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CECA16ED1CBD80ED009A9D22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CECA16EF1CBD80ED009A9D22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECA16F71CBD8615009A9D22 /* Mannerism.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mannerism.swift; sourceTree = "<group>"; };
+		CECA16F91CBD8F82009A9D22 /* Talking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Talking.swift; sourceTree = "<group>"; };
+		CECA16FB1CBD8FD5009A9D22 /* TableManners.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableManners.swift; sourceTree = "<group>"; };
+		CECA16FD1CBD900D009A9D22 /* Phone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Phone.swift; sourceTree = "<group>"; };
+		CECA16FF1CBD903D009A9D22 /* Restroom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restroom.swift; sourceTree = "<group>"; };
+		CECA17011CBD90B4009A9D22 /* AskingNicely.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AskingNicely.swift; sourceTree = "<group>"; };
+		CECA17031CBD90E0009A9D22 /* GoldenRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoldenRule.swift; sourceTree = "<group>"; };
+		CECA17051CBD9153009A9D22 /* VisitingHouse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisitingHouse.swift; sourceTree = "<group>"; };
+		CECA17071CBD9185009A9D22 /* RespectForOthers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RespectForOthers.swift; sourceTree = "<group>"; };
+		CECA17091CBDD6ED009A9D22 /* MannerDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MannerDetailViewController.swift; sourceTree = "<group>"; };
+		CECA172D1CC02775009A9D22 /* MannerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MannerTableViewCell.swift; sourceTree = "<group>"; };
+		CECA172E1CC02775009A9D22 /* MannerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MannerTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +84,18 @@
 				CECA16EA1CBD80ED009A9D22 /* Assets.xcassets */,
 				CECA16EC1CBD80ED009A9D22 /* LaunchScreen.storyboard */,
 				CECA16EF1CBD80ED009A9D22 /* Info.plist */,
+				CECA16F71CBD8615009A9D22 /* Mannerism.swift */,
+				CECA16F91CBD8F82009A9D22 /* Talking.swift */,
+				CECA16FB1CBD8FD5009A9D22 /* TableManners.swift */,
+				CECA16FD1CBD900D009A9D22 /* Phone.swift */,
+				CECA16FF1CBD903D009A9D22 /* Restroom.swift */,
+				CECA17011CBD90B4009A9D22 /* AskingNicely.swift */,
+				CECA17031CBD90E0009A9D22 /* GoldenRule.swift */,
+				CECA17051CBD9153009A9D22 /* VisitingHouse.swift */,
+				CECA17071CBD9185009A9D22 /* RespectForOthers.swift */,
+				CECA17091CBDD6ED009A9D22 /* MannerDetailViewController.swift */,
+				CECA172D1CC02775009A9D22 /* MannerTableViewCell.swift */,
+				CECA172E1CC02775009A9D22 /* MannerTableViewCell.xib */,
 			);
 			path = TeachManners;
 			sourceTree = "<group>";
@@ -123,6 +159,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CECA17301CC02775009A9D22 /* MannerTableViewCell.xib in Resources */,
 				CECA16EE1CBD80ED009A9D22 /* LaunchScreen.storyboard in Resources */,
 				CECA16EB1CBD80ED009A9D22 /* Assets.xcassets in Resources */,
 				CECA16E91CBD80ED009A9D22 /* Main.storyboard in Resources */,
@@ -136,7 +173,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CECA170A1CBDD6ED009A9D22 /* MannerDetailViewController.swift in Sources */,
+				CECA17081CBD9185009A9D22 /* RespectForOthers.swift in Sources */,
+				CECA16F81CBD8615009A9D22 /* Mannerism.swift in Sources */,
+				CECA17041CBD90E0009A9D22 /* GoldenRule.swift in Sources */,
 				CECA16E61CBD80ED009A9D22 /* ViewController.swift in Sources */,
+				CECA172F1CC02775009A9D22 /* MannerTableViewCell.swift in Sources */,
+				CECA16FC1CBD8FD5009A9D22 /* TableManners.swift in Sources */,
+				CECA17001CBD903D009A9D22 /* Restroom.swift in Sources */,
+				CECA17061CBD9153009A9D22 /* VisitingHouse.swift in Sources */,
+				CECA16FA1CBD8F82009A9D22 /* Talking.swift in Sources */,
+				CECA16FE1CBD900D009A9D22 /* Phone.swift in Sources */,
+				CECA17021CBD90B4009A9D22 /* AskingNicely.swift in Sources */,
 				CECA16E41CBD80ED009A9D22 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +337,7 @@
 				CECA16F41CBD80ED009A9D22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
