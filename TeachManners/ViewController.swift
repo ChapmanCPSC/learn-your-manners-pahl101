@@ -18,7 +18,8 @@ import MessageUI
 //let respectKey = NSUserDefaults.standardUserDefaults()
 //let talkKey = NSUserDefaults.standardUserDefaults()
 
-var viewedManners: [Mannerism] = []
+var messageBody = "Subjects Learned: "
+
 
 
 let mc: MFMailComposeViewController = MFMailComposeViewController()
@@ -132,12 +133,12 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         
         wasViewed.viewed = !wasViewed.viewed
-        var checking = manners[indexPath.row]
 
         
         if wasViewed.viewed {
             cellChange?.accessoryType = UITableViewCellAccessoryType.Checkmark
-            checking.yes = true
+            messageBody += ("\n \(wasViewed.name)")
+            
             
             
             
@@ -195,13 +196,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     @IBAction func sendButton(sender: UIButton) {
         
         let subjectText = "Manners App Summary"
-        var messageBody = "Subjects Learned: "
-
-        for manner in viewedManners{
-                messageBody += " \n \(manner.name)"
-            
-        }
- 
+        
+        
             let mc: MFMailComposeViewController = MFMailComposeViewController()
             mc.mailComposeDelegate = self
             mc.setSubject(subjectText)
@@ -227,7 +223,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
                 break
             }
             
-            self.dismissViewControllerAnimated(true, completion: nil)
             self.dismissViewControllerAnimated(true, completion: nil)
         }
     

@@ -53,11 +53,6 @@ class EmailViewController: UIViewController {
         }
     }
     
-    
-    @IBAction func clearButton(sender: AnyObject) {
-        emailKey.removeObjectForKey("savedEmail")
-        emailDisplay.text = "No Email Saved."
-    }
 
     
     /*
