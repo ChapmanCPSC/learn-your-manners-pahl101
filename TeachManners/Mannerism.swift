@@ -14,6 +14,7 @@ protocol Mannerism {
     var name : String {get}
     var description : String {get}
     var viewed : Bool {get set}
+    var yes : Bool {get set}
     
 }
 

@@ -10,8 +10,10 @@ import UIKit
 
 class MannerTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var checkImage: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
+ 
         // Initialization code
     }
 

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE58F37C1CD0040200341FBC /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE58F37B1CD0040200341FBC /* EmailViewController.swift */; };
+		CE58F37F1CD06F0400341FBC /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE58F37E1CD06F0400341FBC /* MessageUI.framework */; };
 		CECA16E41CBD80ED009A9D22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA16E31CBD80ED009A9D22 /* AppDelegate.swift */; };
 		CECA16E61CBD80ED009A9D22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA16E51CBD80ED009A9D22 /* ViewController.swift */; };
 		CECA16E91CBD80ED009A9D22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECA16E71CBD80ED009A9D22 /* Main.storyboard */; };
@@ -27,6 +29,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE58F37B1CD0040200341FBC /* EmailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmailViewController.swift; path = ../EmailViewController.swift; sourceTree = "<group>"; };
+		CE58F37E1CD06F0400341FBC /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		CECA16E01CBD80ED009A9D22 /* TeachManners.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeachManners.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CECA16E31CBD80ED009A9D22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CECA16E51CBD80ED009A9D22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,15 +57,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE58F37F1CD06F0400341FBC /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE58F37D1CD0081F00341FBC /* MannerInfo */ = {
+			isa = PBXGroup;
+			children = (
+				CECA16FD1CBD900D009A9D22 /* Phone.swift */,
+				CECA16FB1CBD8FD5009A9D22 /* TableManners.swift */,
+				CECA16F91CBD8F82009A9D22 /* Talking.swift */,
+				CECA16F71CBD8615009A9D22 /* Mannerism.swift */,
+				CECA17011CBD90B4009A9D22 /* AskingNicely.swift */,
+				CECA16FF1CBD903D009A9D22 /* Restroom.swift */,
+				CECA17031CBD90E0009A9D22 /* GoldenRule.swift */,
+				CECA17051CBD9153009A9D22 /* VisitingHouse.swift */,
+				CECA17071CBD9185009A9D22 /* RespectForOthers.swift */,
+			);
+			name = MannerInfo;
+			sourceTree = "<group>";
+		};
 		CECA16D71CBD80ED009A9D22 = {
 			isa = PBXGroup;
 			children = (
+				CE58F37E1CD06F0400341FBC /* MessageUI.framework */,
 				CECA16E21CBD80ED009A9D22 /* TeachManners */,
 				CECA16E11CBD80ED009A9D22 /* Products */,
 			);
@@ -78,22 +100,15 @@
 		CECA16E21CBD80ED009A9D22 /* TeachManners */ = {
 			isa = PBXGroup;
 			children = (
-				CECA16E31CBD80ED009A9D22 /* AppDelegate.swift */,
+				CECA17091CBDD6ED009A9D22 /* MannerDetailViewController.swift */,
+				CE58F37B1CD0040200341FBC /* EmailViewController.swift */,
 				CECA16E51CBD80ED009A9D22 /* ViewController.swift */,
 				CECA16E71CBD80ED009A9D22 /* Main.storyboard */,
+				CECA16E31CBD80ED009A9D22 /* AppDelegate.swift */,
 				CECA16EA1CBD80ED009A9D22 /* Assets.xcassets */,
 				CECA16EC1CBD80ED009A9D22 /* LaunchScreen.storyboard */,
 				CECA16EF1CBD80ED009A9D22 /* Info.plist */,
-				CECA16F71CBD8615009A9D22 /* Mannerism.swift */,
-				CECA16F91CBD8F82009A9D22 /* Talking.swift */,
-				CECA16FB1CBD8FD5009A9D22 /* TableManners.swift */,
-				CECA16FD1CBD900D009A9D22 /* Phone.swift */,
-				CECA16FF1CBD903D009A9D22 /* Restroom.swift */,
-				CECA17011CBD90B4009A9D22 /* AskingNicely.swift */,
-				CECA17031CBD90E0009A9D22 /* GoldenRule.swift */,
-				CECA17051CBD9153009A9D22 /* VisitingHouse.swift */,
-				CECA17071CBD9185009A9D22 /* RespectForOthers.swift */,
-				CECA17091CBDD6ED009A9D22 /* MannerDetailViewController.swift */,
+				CE58F37D1CD0081F00341FBC /* MannerInfo */,
 				CECA172D1CC02775009A9D22 /* MannerTableViewCell.swift */,
 				CECA172E1CC02775009A9D22 /* MannerTableViewCell.xib */,
 			);
@@ -178,6 +193,7 @@
 				CECA16F81CBD8615009A9D22 /* Mannerism.swift in Sources */,
 				CECA17041CBD90E0009A9D22 /* GoldenRule.swift in Sources */,
 				CECA16E61CBD80ED009A9D22 /* ViewController.swift in Sources */,
+				CE58F37C1CD0040200341FBC /* EmailViewController.swift in Sources */,
 				CECA172F1CC02775009A9D22 /* MannerTableViewCell.swift in Sources */,
 				CECA16FC1CBD8FD5009A9D22 /* TableManners.swift in Sources */,
 				CECA17001CBD903D009A9D22 /* Restroom.swift in Sources */,

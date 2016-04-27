@@ -14,5 +14,6 @@ struct Phone : Mannerism {
     var description: String
     var image: UIImage
     var viewed: Bool = false
+    var yes : Bool = false
 }
 
