@@ -33,9 +33,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="20" y="236" width="360" height="48"/>
-                                </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xE8-lo-Pou">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -50,18 +47,12 @@
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="40"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="20" y="72" width="360" height="74"/>
-                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Using Your Manners. Please enter the information below before continuing." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IuY-6I-qlX">
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="17" y="162" width="366" height="66"/>
-                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Press done if this is correct." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G1X-C4-u4n">
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
@@ -95,21 +86,27 @@
                             <constraint firstItem="xE8-lo-Pou" firstAttribute="top" secondItem="oyK-NL-tbN" secondAttribute="bottom" constant="20" id="86l-pt-dN0">
                                 <variation key="widthClass=compact" constant="8"/>
                             </constraint>
-                            <constraint firstItem="YgA-wU-4L9" firstAttribute="top" secondItem="1Su-EN-oLq" secondAttribute="bottom" constant="8" id="8Ha-fp-oWY"/>
+                            <constraint firstItem="YgA-wU-4L9" firstAttribute="top" secondItem="1Su-EN-oLq" secondAttribute="bottom" constant="8" id="8Ha-fp-oWY">
+                                <variation key="widthClass=compact" constant="16"/>
+                            </constraint>
                             <constraint firstItem="1Ny-v8-T1m" firstAttribute="top" secondItem="4eK-dv-sBJ" secondAttribute="bottom" constant="195" id="9bR-Pi-M0j">
                                 <variation key="widthClass=compact" constant="148"/>
                             </constraint>
                             <constraint firstAttribute="trailingMargin" secondItem="4eK-dv-sBJ" secondAttribute="trailing" id="BLt-jV-aQM"/>
                             <constraint firstAttribute="trailingMargin" secondItem="IuY-6I-qlX" secondAttribute="trailing" constant="-3" id="BmC-aF-Exf"/>
                             <constraint firstItem="eZM-fd-RaH" firstAttribute="top" secondItem="YgA-wU-4L9" secondAttribute="bottom" constant="67" id="D7C-gM-Dk7">
-                                <variation key="widthClass=compact" constant="90"/>
+                                <variation key="widthClass=compact" constant="82"/>
                             </constraint>
-                            <constraint firstItem="G1X-C4-u4n" firstAttribute="leading" secondItem="WFi-Qn-Q1F" secondAttribute="leadingMargin" constant="74" id="Lmq-hF-chR"/>
+                            <constraint firstItem="G1X-C4-u4n" firstAttribute="leading" secondItem="WFi-Qn-Q1F" secondAttribute="leadingMargin" constant="74" id="Lmq-hF-chR">
+                                <variation key="widthClass=compact" constant="-3"/>
+                            </constraint>
                             <constraint firstItem="oyK-NL-tbN" firstAttribute="top" secondItem="eZM-fd-RaH" secondAttribute="bottom" constant="45" id="QWe-7J-pae">
                                 <variation key="widthClass=compact" constant="8"/>
                             </constraint>
                             <constraint firstItem="YgA-wU-4L9" firstAttribute="trailing" secondItem="WFi-Qn-Q1F" secondAttribute="trailingMargin" id="Rc4-CL-Q0f"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="G1X-C4-u4n" secondAttribute="trailing" constant="73" id="Vjg-EI-Z1T"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="G1X-C4-u4n" secondAttribute="trailing" constant="73" id="Vjg-EI-Z1T">
+                                <variation key="widthClass=compact" constant="0.0"/>
+                            </constraint>
                             <constraint firstItem="4eK-dv-sBJ" firstAttribute="leading" secondItem="WFi-Qn-Q1F" secondAttribute="leadingMargin" id="YgK-rn-nIQ"/>
                             <constraint firstItem="1Ny-v8-T1m" firstAttribute="top" secondItem="xE8-lo-Pou" secondAttribute="bottom" constant="285" id="bkk-MA-rNd">
                                 <variation key="widthClass=compact" constant="240"/>
@@ -121,9 +118,11 @@
                             <constraint firstItem="G1X-C4-u4n" firstAttribute="top" secondItem="4eK-dv-sBJ" secondAttribute="bottom" constant="56" id="rxQ-ad-OAN"/>
                             <constraint firstItem="eZM-fd-RaH" firstAttribute="top" secondItem="IuY-6I-qlX" secondAttribute="bottom" constant="8" id="tYl-LK-7Jc"/>
                             <constraint firstItem="eZM-fd-RaH" firstAttribute="top" secondItem="1Su-EN-oLq" secondAttribute="bottom" constant="134" id="txP-hU-Wwt">
-                                <variation key="widthClass=compact" constant="216"/>
+                                <variation key="widthClass=compact" constant="172"/>
                             </constraint>
-                            <constraint firstItem="IuY-6I-qlX" firstAttribute="top" secondItem="YgA-wU-4L9" secondAttribute="bottom" constant="16" id="uLS-17-dMj"/>
+                            <constraint firstItem="IuY-6I-qlX" firstAttribute="top" secondItem="YgA-wU-4L9" secondAttribute="bottom" constant="16" id="uLS-17-dMj">
+                                <variation key="widthClass=compact" constant="8"/>
+                            </constraint>
                             <constraint firstItem="oyK-NL-tbN" firstAttribute="leading" secondItem="WFi-Qn-Q1F" secondAttribute="leadingMargin" constant="133" id="woo-xK-Iuk">
                                 <variation key="widthClass=compact" constant="33"/>
                                 <variation key="heightClass=regular-widthClass=compact" constant="33"/>

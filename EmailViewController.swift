@@ -51,6 +51,7 @@ class EmailViewController: UIViewController {
             error.addAction(UIAlertAction(title: "OK!", style: .Cancel, handler: nil))
             self.presentViewController(error, animated: true, completion: nil)
         }
+        
     }
     
 

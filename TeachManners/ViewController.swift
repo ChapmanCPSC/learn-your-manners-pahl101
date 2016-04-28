@@ -222,7 +222,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             default:
                 break
             }
-            
+
+        
             self.dismissViewControllerAnimated(true, completion: nil)
         }
     
